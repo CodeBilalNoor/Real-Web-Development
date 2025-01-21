@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id and Classes</title>
+    <style>
+            id:
+
+It is a unique identifier for an element in HTML.
+Each id can be used only once on a page.
+It is mainly used to target a single, specific element for styling or JavaScript interactions.
+class:
+
+It is not unique and can be used on multiple elements.
+It is used when you want to apply the same style or behavior to a group of elements.
+    #hamza{
+        color: blue;
+    }
+    .name{
+        background-color: red;
+    }
+    .father-name{
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    Id means unique identifier
+    Class means we can use it multiple element 
+    <div id="hamza"> Hira is my younger Sister</div>
+    <div class="name father-name">Ali is good boy</div>
+
+</body>
+</html> -->
+
+<!-- 2nd practice question list -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id and Clas quiz</title>
+ </head>
+ <style>
+    #header{
+        background-color: green;
+    }
+    .info{
+        background-color: blue;
+    }
+    #both{
+        background-color: aquamarine;
+    }
+    .both{
+        color: red;
+    }
+ </style>
+ <body>
+    <div id="header">Ronaldo Goal</div>
+    <hr>
+    <div class="info">Messi winning the world cup</div>
+
+    <!-- "When both an id and a class are used on the same div, only one background-color or color will apply. If both the id and class specify a background-color or color, the one defined last in the CSS will take precedence."
+
+    Why This Happens:
+    CSS follows a specificity and order rule:
+    
+    Specificity: Styles from an id are more specific than a class, so id usually takes precedence.
+    Order: If two styles have the same specificity (e.g., both target the same element), the one written later in the CSS wins. -->
+    <div id="both"  class="both">hamza starts the code</div>
+    
+ </body>
+ </html>
